@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Preview Page</ion-title>
+        </ion-navbar>
+    </ion-header>
+    <ion-content padding>
+        
+        <h5>This is camera Preview Application..</h5>
+        
+        <div class="displaybottom">
+        <button (click)="startCamera()"> Start Camera</button>
+         <button (click)="stopCamera()"> Stop Camera</button>
+
+        <button (click)="takePicture()"> Take Picture Camera</button>
+
+        <button (click)="SwitchCamera()"> Switch  Camera</button>
+
+        <button (click)="showCamera()"> Show Camera</button>
+
+        <button (click)="hideCamera()"> Hide Camera</button>
+     </div>
+
+       <div class="pictures">
+      <p><img id="previewPicture" width="200"/></p>
+      <!--<p><img id="originalPicture" width="200"/></p>-->
+    </div>
+
+
+
+ </ion-content>
