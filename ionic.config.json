@@ -1,6 +1,6 @@
 {
-  "name": "ionic2-app-base",
-  "app_id": "",
-  "typescript": true,
-  "v2": true
+    "name": "Ionic-2-camera-preview-updated",
+    "app_id": "",
+    "v2": true,
+    "typescript": true
 }
